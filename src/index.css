@@ -1,0 +1,23 @@
+:root{
+    --navbar-dark: rgb(33, 37, 41);
+    --navbar-link-gray: #6c757d;
+
+    --light-light-pink: #FFF6F4;
+    --light-pink: #FFCDD2;
+    --bright-red: #E51437;
+    --dark-green: #4B8300;
+    --dark-brown: #574240;
+    --white-transparent: rgb(256, 256, 256, 80%);
+    --white-more-transparent: rgb(256, 256, 256, 50%);
+
+    --font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    --main-radius: 5px;
+}
+
+body{
+    margin: 0;
+}
+
+.pointer {cursor: pointer;}

@@ -1,0 +1,32 @@
+.navbar{
+    font-family: var(--font-sans-serif);
+    background-color: var(--navbar-dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding-left: 2rem;
+}
+
+.navbar-list-router{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: var(--navbar-link-gray);
+}
+
+.nav-link:hover{
+    color: white;
+}
