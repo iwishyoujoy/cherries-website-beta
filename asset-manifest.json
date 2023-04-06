@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.cbebf101.css",
+    "main.js": "/react-gh-pages/static/js/main.5bbebeee.js",
+    "static/media/img8-1.jpg": "/react-gh-pages/static/media/img8-1.f284f7fef6d95ddd1d86.jpg",
+    "static/media/antresol.jpg": "/react-gh-pages/static/media/antresol.b2c01ed62a9aeebf9e46.jpg",
+    "static/media/fjord.jpg": "/react-gh-pages/static/media/fjord.e3263959655b6afeab71.jpg",
+    "static/media/yellow-hanger.jpg": "/react-gh-pages/static/media/yellow-hanger.44569f3f91c597ff0773.jpg",
+    "static/media/eversale.jpg": "/react-gh-pages/static/media/eversale.6478015b2f2acd67413d.jpg",
+    "static/media/roomstore.jpg": "/react-gh-pages/static/media/roomstore.6fa5f1ad7779d74cb7e7.jpg",
+    "static/media/shield.png": "/react-gh-pages/static/media/shield.f3c24535811e4be32dea.png",
+    "static/media/magnifying-glass.png": "/react-gh-pages/static/media/magnifying-glass.87d052b19a0248136d67.png",
+    "static/media/revicons.eot": "/react-gh-pages/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/fast-delivery.png": "/react-gh-pages/static/media/fast-delivery.4471298d033f06e44f64.png",
+    "static/media/revicons.ttf": "/react-gh-pages/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/react-gh-pages/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/react-gh-pages/index.html",
+    "main.cbebf101.css.map": "/react-gh-pages/static/css/main.cbebf101.css.map",
+    "main.5bbebeee.js.map": "/react-gh-pages/static/js/main.5bbebeee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbebf101.css",
+    "static/js/main.5bbebeee.js"
+  ]
+}
