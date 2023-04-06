@@ -23,7 +23,7 @@
 .nav-link{
     padding-right: 2rem;
     text-decoration: none;
-    color: var(--navbar-link-gray);
+    color: var(--navbar-link-grey);
 }
 
 .nav-link:hover{

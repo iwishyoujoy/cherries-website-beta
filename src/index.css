@@ -1,9 +1,10 @@
 :root{
     --navbar-dark: rgb(33, 37, 41);
-    --navbar-link-gray: #6c757d;
+    --navbar-link-grey: #6c757d;
 
-    --light-light-pink: #FFF6F4;
-    --light-pink: #FFCDD2;
+    --pink: #fcc3d8;
+    --light-pink: rgba(253, 246, 248, 0.98);
+    --light-grey: #e8ecef;
     --bright-red: #E51437;
     --dark-green: #4B8300;
     --dark-brown: #574240;

@@ -1,4 +1,4 @@
-.trash{
-    padding: 2rem 3rem 2rem 3rem;
-    font-size: large;
+.carousel-container{
+    background-color: var(--light-grey);
+    padding: 1.5rem 15% 2rem 15%;
 }

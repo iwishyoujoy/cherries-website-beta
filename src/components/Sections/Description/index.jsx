@@ -44,4 +44,6 @@ function Description(){
     );
 }
 
+// TODO сделать кнопку акцентным цветом
+
 export default Description;

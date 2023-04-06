@@ -1,0 +1,28 @@
+.secondhand-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 10px solid white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 100%;
+}
+
+.secondhand-text-container{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.secondhand-text-big{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.secondhand-text-small{
+    font-size: 1em;
+    font-weight: 300;
+}

@@ -1,0 +1,21 @@
+.carousel-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    text-align: center;
+    padding: 3rem 0 1rem 0;
+    margin-top: 5rem;
+    background-color: var(--light-grey);
+}
+
+.carousel-text-big{
+    font-weight: 750;
+    font-size: 1.8em;
+}
+
+.carousel-text-small{
+    font-weight: 350;
+    font-size: 1em;
+}
