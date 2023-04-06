@@ -5,13 +5,11 @@
     justify-content: center;
     align-items: center;
     row-gap: 2rem;
-    /*background-color: var(--bright-red);*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../../../header-img-4.jpg);
-    font-family: var(--font-sans-serif);
+    background-image: url(../../../images/img8.jpg);
     color: white;
 }
 
@@ -30,7 +28,7 @@
 
 .header-small-text{
     font-weight: 350;
-    color: var(--white-transparent);
+    color: white;
     font-size: 1.2em;
 }
 
@@ -46,7 +44,11 @@
     font-size: 1.2em;
     background-color: transparent;
     color: white;
-    border: 1px solid var(--light-light-pink);
+    border: 1px solid white;
     border-radius: var(--main-radius);
     padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+}
+
+.header-button:hover{
+    background-color: var(--white-more-transparent);
 }
