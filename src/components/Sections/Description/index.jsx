@@ -21,8 +21,8 @@ function Description(){
                     </div>
                 </div>
                 <div className="description-buttons-container">
-                    <button className="description-button active">Для покупателей</button>
-                    <button className="description-button">Для продавцов</button>
+                    <button className="description-button active pointer">Для покупателей</button>
+                    <button className="description-button pointer">Для продавцов</button>
                 </div>
                 <div className="description-steps-container customer">
                     {descriptionStepsForCustomer.map(
