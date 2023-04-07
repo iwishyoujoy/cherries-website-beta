@@ -6,8 +6,8 @@ function Footer(){
         <AppContainer>
             <div className="footer-container">
                 <div className="footer-text">
-                    Copyright © Cherries 2023 <br />
-                    All rights are reserved
+                    Copyright © 2023 Cherries <br />
+                    All rights reserved
                 </div>
             </div>
         </AppContainer>
