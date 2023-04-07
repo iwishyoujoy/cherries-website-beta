@@ -1,11 +1,11 @@
 import NavBar from "../../components/Sections/NavBar";
 import AppBody from "../../components/AppBody";
 import Header from "../../components/Sections/Header";
-import "./index.scoped.css";
 import Description from "../../components/Sections/Description";
 import "react-multi-carousel/lib/styles.css"
 import Secondhands from "../../components/Sections/Secondhands";
-import CarouselSeconds from "../../components/Sections/CarouselSeconds";
+import Footer from "../../components/Sections/Footer";
+import Questions from "../../components/Sections/Questions";
 function MainPage() {
 
     const headerNavigation = [
@@ -21,14 +21,11 @@ function MainPage() {
             <Header />
             <Description />
             <Secondhands />
-            <div className="carousel-container">
-                <CarouselSeconds />
-            </div>
-            {/*<Review />*/}
-            {/*<ContactUs />*/}
-            {/*<Footer />*/}
+            <Questions />
+            <Footer />
         </AppBody>
     );
 }
+// TODO сделать адаптацию под телефон и планшет
 
 export default MainPage;

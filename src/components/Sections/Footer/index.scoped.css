@@ -1,0 +1,16 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--navbar-dark);
+}
+
+.footer-text{
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}

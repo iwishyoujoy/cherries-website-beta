@@ -23,3 +23,19 @@ body{
 }
 
 .pointer {cursor: pointer;}
+
+.black-white-button{
+    font-family: var(--font-sans-serif);
+    font-size: 1em;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: var(--main-radius);
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+}
+
+.black-white-button:hover, .black-white-button.active{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}

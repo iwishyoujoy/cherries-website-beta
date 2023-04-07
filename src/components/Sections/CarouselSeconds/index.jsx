@@ -25,7 +25,12 @@ function CarouselSeconds() {
         {name: "Антресоль винтаж", img: require("./images/antresol.jpg"), address: "Невский пр., 134А"},
         {name: "FjordCloth", img: require("./images/fjord.jpg"), address: "ул. Чехова, 8"},
         {name: "EVERSALE", img: require("./images/eversale.jpg"), address: "ул. Кирочная, 9"},
-        {name: "Room Store", img: require("./images/roomstore.jpg"), address: "канал Грибоедова, 26"}
+        {name: "Room Store", img: require("./images/roomstore.jpg"), address: "канал Грибоедова, 26"},
+        {name: "Pentagon Vintage Store", img: require("./images/pentagon.jpg"), address: " ул. Курская, 28/32"},
+        {name: "KISSA MARKET", img: require("./images/kissa.jpg"), address: "Большая Конюшенная, 9"},
+        {name: "Fatcatshop", img: require("./images/fatcat.jpg"), address: "ул. Казанская, 7"},
+        {name: "Поток", img: require("./images/potok.jpg"), address: "пер. Угловой, 3"},
+        {name: "OldBaby", img: require("./images/oldbaby.jpg"), address: "пер. Антоненко, 5"}
     ];
 
     return (

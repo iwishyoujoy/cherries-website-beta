@@ -1,3 +1,9 @@
+.carousel-container{
+    margin-top: 5rem;
+    background-color: var(--light-grey);
+    padding: 1.5rem 15% 3rem 15%;
+}
+
 .carousel-text-container{
     display: flex;
     flex-direction: column;
@@ -5,8 +11,7 @@
     align-items: center;
     row-gap: 1rem;
     text-align: center;
-    padding: 3rem 0 1rem 0;
-    margin-top: 5rem;
+    padding: 2rem 0 1.5rem 0;
     background-color: var(--light-grey);
 }
 
@@ -18,4 +23,29 @@
 .carousel-text-small{
     font-weight: 350;
     font-size: 1em;
+}
+
+.carousel-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.carousel-button{
+    font-family: var(--font-sans-serif);
+    font-size: 1em;
+    background-color: transparent;
+    color: var(--navbar-dark);
+    font-weight: 600;
+    border: 2px solid var(--navbar-dark);
+    border-radius: var(--main-radius);
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+}
+
+.carousel-button:hover, .carousel-button.active{
+    color: white;
+    background-color: var(--navbar-dark);
+    border: 2px solid var(--navbar-dark);
 }
