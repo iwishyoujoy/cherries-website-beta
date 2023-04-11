@@ -1,0 +1,25 @@
+.category-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-header-small{
+    color: var(--navbar-link-grey);
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 11rem 0 1rem 0;
+}
+
+.category-header-big{
+    font-size: 2em;
+    font-weight: 750;
+}
+
+.category-header-count{
+    color: var(--navbar-link-grey);
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 1rem 0 1rem 0;
+}

@@ -2,7 +2,7 @@ import AppContainer from "../../AppContainer";
 import "./index.scoped.css";
 import {useEffect, useState} from "react";
 function NavBar(props) {
-    
+
     // useEffect(() => {
     //     window.addEventListener('scroll',handleScroll)
     // })
@@ -22,7 +22,7 @@ function NavBar(props) {
         <AppContainer>
             <div className={"navbar " + (isSticky ? "sticky" : "")}>
                 <div className="navbar-logo">
-                    <a className="logo" href="/">Cherries 🍒</a>
+                    <a className="logo" href="/cherries-website-beta">Cherries 🍒</a>
                 </div>
                 <div className="navbar-list">
                     <div className="navbar-list-router">

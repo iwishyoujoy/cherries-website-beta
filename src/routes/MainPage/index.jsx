@@ -9,7 +9,7 @@ import Questions from "../../components/Sections/Questions";
 function MainPage() {
 
     const headerNavigation = [
-        {title: "Товары", link: "/"},
+        {title: "Товары", link: "/cherries-website-beta/shop"},
         {title: "FAQ", link: "/"},
         {title: "Избранное", link: "/"},
         {title: "Контакты", link: "/"},
@@ -17,15 +17,9 @@ function MainPage() {
         {title: "Войти", link: "/"}
     ];
 
-    const headerCategories = [
-        {title: "Мужское", link: "/"},
-        {title: "Женское", link: "/"},
-        {title: "Детское", link: "/"}
-    ];
-
     return (
         <AppBody>
-            <NavBar navigation={headerNavigation} categories={headerCategories}/>
+            <NavBar navigation={headerNavigation}/>
             <Header />
             <Description />
             <Secondhands />
