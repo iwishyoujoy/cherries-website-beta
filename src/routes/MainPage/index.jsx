@@ -9,7 +9,7 @@ import Questions from "../../components/Sections/Questions";
 function MainPage() {
 
     const headerNavigation = [
-        {title: "Товары", link: "/cherries-website-beta/shop"},
+        {title: "Товары", link: "/shop"},
         {title: "FAQ", link: "/"},
         {title: "Избранное", link: "/"},
         {title: "Контакты", link: "/"},

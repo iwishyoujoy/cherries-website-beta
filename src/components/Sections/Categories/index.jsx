@@ -1,6 +1,7 @@
 import "./index.scoped.css";
 import AppContainer from "../../AppContainer";
 import CategoryHeader from "../CategoryHeader";
+import {Link} from "react-router-dom";
 
 function Categories(){
     const headerCategories = [
@@ -26,14 +27,14 @@ function Categories(){
                 <div className="categories-big">
                     {headerCategories.map(
                         (item, key) => (
-                            <a key={key} className={"categories-big-link " + item.class} href={item.link}>{item.title}</a>
+                            <Link key={key} className={"categories-big-link " + item.class} to={item.link}>{item.title}</Link>
                         )
                     )}
                 </div>
                 <div className="categories-small">
                     {smallCategoriesWomen.map(
                         (item, key) => (
-                            <a key={key} className={"categories-small-link " + item.class} href="/">{item.title}</a>
+                            <Link key={key} className={"categories-small-link " + item.class} to="/">{item.title}</Link>
                         )
                     )}
                 </div>

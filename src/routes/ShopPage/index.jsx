@@ -5,7 +5,7 @@ import Categories from "../../components/Sections/Categories";
 function ShopPage(){
 
     const headerNavigation = [
-        {title: "На главную", link: "/cherries-website-beta"},
+        {title: "На главную", link: "/"},
         {title: "FAQ", link: "/"},
         {title: "Избранное", link: "/"},
         {title: "Контакты", link: "/"},

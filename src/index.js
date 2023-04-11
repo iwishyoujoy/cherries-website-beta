@@ -13,7 +13,7 @@ const router = createBrowserRouter(
             element: <MainPage />
         },
         {
-            path: "/shop",
+            path: "/shop/",
             element: <ShopPage />
         }
         // {

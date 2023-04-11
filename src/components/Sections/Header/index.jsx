@@ -1,6 +1,8 @@
 import "./index.scoped.css";
 import AppContainer from "../../AppContainer";
+import {useNavigate} from "react-router-dom";
 function Header(){
+    const navigate = useNavigate();
     return (
         <AppContainer>
             <div className="header">
@@ -13,7 +15,7 @@ function Header(){
                     </div>
                 </div>
                 <div className="header-buttons">
-                    <button className="header-button pointer">Товары</button>
+                    <button className="header-button pointer" onClick={() => navigate("/shop")}>Товары</button>
                     <button className="header-button pointer">Узнать больше</button>
                 </div>
             </div>
