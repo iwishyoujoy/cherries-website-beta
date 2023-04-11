@@ -9,15 +9,23 @@ import Questions from "../../components/Sections/Questions";
 function MainPage() {
 
     const headerNavigation = [
-        {title: "Войти", link: "/"},
+        {title: "Товары", link: "/"},
         {title: "FAQ", link: "/"},
         {title: "Избранное", link: "/"},
-        {title: "Корзина", link: "/"}
+        {title: "Контакты", link: "/"},
+        {title: "Корзина", link: "/"},
+        {title: "Войти", link: "/"}
+    ];
+
+    const headerCategories = [
+        {title: "Мужское", link: "/"},
+        {title: "Женское", link: "/"},
+        {title: "Детское", link: "/"}
     ];
 
     return (
         <AppBody>
-            <NavBar navigation={headerNavigation} />
+            <NavBar navigation={headerNavigation} categories={headerCategories}/>
             <Header />
             <Description />
             <Secondhands />

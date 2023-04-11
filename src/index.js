@@ -4,17 +4,18 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import './index.css';
 import MainPage from "./routes/MainPage";
+import ShopPage from "./routes/ShopPage";
 
 const router = createBrowserRouter(
     [
         {
             path: "/",
             element: <MainPage />
+        },
+        {
+            path: "/shop",
+            element: <ShopPage />
         }
-        // {
-        //     path: "/items",
-        //     element: <Items />
-        // },
         // {
         //     path: "/*",
         //     element: <NotFoundPage />
