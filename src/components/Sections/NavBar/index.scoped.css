@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem 1rem 2rem;
+    box-sizing: border-box;
+    z-index: 999;
 }
 
 .logo{

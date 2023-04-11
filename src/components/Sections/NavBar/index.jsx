@@ -2,20 +2,21 @@ import AppContainer from "../../AppContainer";
 import "./index.scoped.css";
 import {useEffect, useState} from "react";
 function NavBar(props) {
-    useEffect(() => {
-        window.addEventListener('scroll',handleScroll)
-    })
+    
+    // useEffect(() => {
+    //     window.addEventListener('scroll',handleScroll)
+    // })
 
-    const [isSticky, setSticky] = useState(false);
-    const handleScroll=() => {
-        const offset=window.scrollY;
-        if(offset > 0){
-            setSticky(true);
-        }
-        else{
-            setSticky(false);
-        }
-    }
+    const [isSticky, setSticky] = useState(true);
+    // const handleScroll=() => {
+    //     const offset=window.scrollY;
+    //     if(offset > 0){
+    //         setSticky(true);
+    //     }
+    //     else{
+    //         setSticky(false);
+    //     }
+    // }
 
     return (
         <AppContainer>

@@ -1,5 +1,4 @@
-
-//необходимо для того, чтобы страничка не разъезжалась при смене масштаба
+import "./index.scoped.css";
 function AppContainer(props) {
     return (
         <div className="app-container">
