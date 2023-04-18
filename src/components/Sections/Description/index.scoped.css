@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     row-gap: 2rem;
+    padding-top: 1.5rem;
 }
 
 .description-text{
@@ -73,5 +74,42 @@
     height: 70px;
 }
 
+@media (max-width: 1300px){
+    .description-container{
+        row-gap: 1.8rem;
+    }
+    .description-text-big{
+        font-size: 1.6rem;
+    }
+    .description-text-small{
+        font-size: 1rem;
+    }
+    .description-step-header{
+        font-size: 1.2rem;
+    }
+    .description-step-picture{
+        height: 50px;
+    }
+}
+
+@media (max-width: 800px){
+    .description-container{
+        row-gap: 1.3rem;
+    }
+    .description-text{
+        margin: 5% 5% 0 5%;
+    }
+    .show{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        row-gap: 2.5rem;
+        width: 95%;
+    }
+    .description-step-text{
+        height: auto;
+    }
+}
 
 

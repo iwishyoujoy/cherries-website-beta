@@ -49,3 +49,18 @@
     background-color: var(--navbar-dark);
     border: 2px solid var(--navbar-dark);
 }
+
+@media (max-width: 1300px){
+    .carousel-container{
+        padding: 1.5rem 15% 3rem 15%;
+    }
+    .carousel-text-big{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 800px){
+    .carousel-container{
+        padding: 1.5rem 5% 3rem 5%;
+    }
+}

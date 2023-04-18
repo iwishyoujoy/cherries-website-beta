@@ -52,3 +52,32 @@
 .header-button:hover{
     background-color: var(--white-more-transparent);
 }
+
+@media (max-width: 1300px){
+    .header-big-text{
+        font-size: 1.8rem;
+    }
+    .header-small-text{
+        /*font-size: 1rem;*/
+        /*text-align: center;*/
+        display: none;
+    }
+    .header-button{
+        font-size: 1rem;
+        padding: 0.6rem 1.4rem 0.6rem 1.4rem;
+    }
+}
+
+@media (max-width: 800px){
+    .header-big-text{
+        font-size: 1.7rem;
+        padding: 0 0.7rem 0 0.7rem;
+    }
+    .header-small-text{
+        /*padding: 0 0.7rem 0 0.7rem;*/
+    }
+    .header-button{
+        font-size: 0.9rem;
+        padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+    }
+}

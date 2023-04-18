@@ -24,16 +24,6 @@
     column-gap: 2rem;
 }
 
-.nav-category-link{
-    text-decoration: none;
-    color: var(--white-transparent);
-    font-weight: 400;
-}
-
-.nav-category-link:hover{
-    color: white;
-}
-
 .navbar-list-router{
     display: flex;
     flex-direction: row;
@@ -44,6 +34,7 @@
     padding-right: 2rem;
     text-decoration: none;
     color: var(--navbar-link-grey);
+    font-size: 1rem;
 }
 
 .nav-link:hover{
@@ -53,4 +44,23 @@
 .sticky {
     position: fixed;
     width: 100%;
+}
+
+@media (max-width: 1300px){
+    .logo{
+        font-size: 1.1rem;
+    }
+    .nav-link{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 800px){
+    .logo{
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+    .nav-link{
+        display: none;
+    }
 }

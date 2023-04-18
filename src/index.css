@@ -40,3 +40,17 @@ body{
     background-color: black;
     border: 1px solid black;
 }
+
+@media (max-width: 1300px){
+    .black-white-button{
+        font-size: 1rem;
+        padding: 0.6rem 1.4rem 0.6rem 1.4rem;
+    }
+}
+
+@media (max-width: 800px){
+    .black-white-button{
+        font-size: 0.9rem;
+        padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+    }
+}

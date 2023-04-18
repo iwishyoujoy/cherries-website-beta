@@ -14,3 +14,15 @@
     color: white;
     text-align: center;
 }
+
+@media (max-width: 1300px){
+    .footer-text{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 800px){
+    .footer-text{
+        font-size: 0.8rem;
+    }
+}
