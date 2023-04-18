@@ -6,8 +6,8 @@ import {useState} from "react";
 
 function Categories(){
     const headerCategories = [
-        {title: "Женское", id: "men"},
-        {title: "Мужское", id: "women"},
+        {title: "Женское", id: "women"},
+        {title: "Мужское", id: "men"},
         {title: "Детское", id: "kids"}
     ];
 
@@ -36,7 +36,7 @@ function Categories(){
         {title: "Новинки", id: "new"},
         {title: "Бренды", id: "brands"},
         {title: "Девочки 0-3", id: "girls0-3"},
-        {title: "Девочка 4-14", id: "girls4-14"},
+        {title: "Девочки 4-14", id: "girls4-14"},
         {title: "Мальчики 0-3", id: "boys0-3"},
         {title: "Мальчики 4-14", id: "boys4-14"}
     ];
