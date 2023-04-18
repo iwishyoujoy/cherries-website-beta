@@ -2,24 +2,56 @@ import "./index.scoped.css";
 import AppContainer from "../../AppContainer";
 import CategoryHeader from "../CategoryHeader";
 import {Link} from "react-router-dom";
+import {useState} from "react";
 
 function Categories(){
     const headerCategories = [
-        {title: "Женское", link: "/", id: "men", class: "active"},
-        {title: "Мужское", link: "/", id: "women", class: ""},
-        {title: "Детское", link: "/", id: "kids", class: ""}
+        {title: "Женское", id: "men"},
+        {title: "Мужское", id: "women"},
+        {title: "Детское", id: "kids"}
     ];
 
     const smallCategoriesWomen = [
-        {title: "Новинки", class: "active"},
-        {title: "Бренды", class: ""},
-        {title: "Аксессуары", class: ""},
-        {title: "Бьюти", class: ""},
-        {title: "Обувь", class: ""},
-        {title: "Одежда", class: ""},
-        {title: "Сумки", class: ""},
-        {title: "Украшения", class: ""}
+        {title: "Новинки", id: "new"},
+        {title: "Бренды", id: "brands"},
+        {title: "Аксессуары", id: "accessories"},
+        {title: "Бьюти", id: "beauty"},
+        {title: "Обувь", id: "shoes"},
+        {title: "Одежда", id: "clothes"},
+        {title: "Сумки", id: "bags"},
+        {title: "Украшения", id: "jewelry"}
     ];
+
+    const smallCategoriesMen = [
+        {title: "Новинки", id: "new"},
+        {title: "Бренды", id: "brands"},
+        {title: "Аксессуары", id: "accessories"},
+        {title: "Бьюти", id: "beauty"},
+        {title: "Обувь", id: "shoes"},
+        {title: "Одежда", id: "clothes"},
+        {title: "Сумки", id: "bags"}
+    ];
+
+    const smallCategoriesKids = [
+        {title: "Новинки", id: "new"},
+        {title: "Бренды", id: "brands"},
+        {title: "Девочки 0-3", id: "girls0-3"},
+        {title: "Девочка 4-14", id: "girls4-14"},
+        {title: "Мальчики 0-3", id: "boys0-3"},
+        {title: "Мальчики 4-14", id: "boys4-14"}
+    ];
+
+    const categories = {
+        men: smallCategoriesMen,
+        women: smallCategoriesWomen,
+        kids: smallCategoriesKids}
+
+    const [isGeneralLinkActive, setGeneralLinkActive] = useState(0);
+    const [isSpecificLinkActive, setSpecificLinkActive] = useState(0);
+    const [ListOfLinks, setListOfLinks] = useState(smallCategoriesWomen);
+    const selectCategory = (id) => {
+        setListOfLinks(categories[id]);
+    };
 
     return (
         <AppContainer>
@@ -27,19 +59,22 @@ function Categories(){
                 <div className="categories-big">
                     {headerCategories.map(
                         (item, key) => (
-                            <Link key={key} className={"categories-big-link " + item.class} to={item.link}>{item.title}</Link>
+                            <Link key={key} id={item.id} className={"categories-big-link " + (isGeneralLinkActive === key ? "active" : "")} to="/shop" onClick={() => {
+                                setGeneralLinkActive(key);
+                                selectCategory(item.id);
+                            }}>{item.title}</Link>
                         )
                     )}
                 </div>
                 <div className="categories-small">
-                    {smallCategoriesWomen.map(
+                    {ListOfLinks.map(
                         (item, key) => (
-                            <Link key={key} className={"categories-small-link " + item.class} to="/">{item.title}</Link>
+                            <Link key={key} id={item.id} className={"categories-small-link " + (isSpecificLinkActive === key ? "active" : "")} to="/shop" onClick={() => {setSpecificLinkActive(key)}}>{item.title}</Link>
                         )
                     )}
                 </div>
             </div>
-            <CategoryHeader headerSmall="Новинки" headerBig="Новинки" count="123"/>
+            <CategoryHeader headerGeneral="Женское" headerSpecific="Новинки" count="123"/>
         </AppContainer>
     );
 }

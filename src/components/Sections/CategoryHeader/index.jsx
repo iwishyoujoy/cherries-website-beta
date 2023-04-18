@@ -3,10 +3,10 @@ function CategoryHeader(props){
     return (
         <div className="category-header">
             <div className="category-header-small">
-                Главная > Женское > {props.headerSmall}
+                Главная > {props.headerGeneral} > {props.headerSpecific}
             </div>
             <div className="category-header-big">
-                {props.headerBig}
+                {props.headerSpecific}
             </div>
             <div className="category-header-count">
                 {props.count} товара
