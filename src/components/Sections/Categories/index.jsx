@@ -49,8 +49,27 @@ function Categories(){
     const [isGeneralLinkActive, setGeneralLinkActive] = useState(0);
     const [isSpecificLinkActive, setSpecificLinkActive] = useState(0);
     const [ListOfLinks, setListOfLinks] = useState(smallCategoriesWomen);
+    const [headerGeneral, setHeaderGeneral] = useState("Женское");
+    const [headerSpecific, setHeaderSpecific] = useState("Новинки");
+
     const selectCategory = (id) => {
         setListOfLinks(categories[id]);
+    };
+
+    const changeheaderGeneral = (id) => {
+        setHeaderGeneral(headerCategories.find((c) => c.id === id).title);
+    };
+
+    const changeheaderSpecific = (id) => {
+        if (headerGeneral === "Женское") {
+            setHeaderSpecific(smallCategoriesWomen.find((c) => c.id === id).title);
+        }
+        if (headerGeneral === "Мужское") {
+            setHeaderSpecific(smallCategoriesMen.find((c) => c.id === id).title);
+        }
+        if (headerGeneral === "Детское") {
+            setHeaderSpecific(smallCategoriesKids.find((c) => c.id === id).title);
+        }
     };
 
     return (
@@ -62,6 +81,7 @@ function Categories(){
                             <Link key={key} id={item.id} className={"categories-big-link " + (isGeneralLinkActive === key ? "active" : "")} to="/shop" onClick={() => {
                                 setGeneralLinkActive(key);
                                 selectCategory(item.id);
+                                changeheaderGeneral(item.id);
                             }}>{item.title}</Link>
                         )
                     )}
@@ -69,12 +89,15 @@ function Categories(){
                 <div className="categories-small">
                     {ListOfLinks.map(
                         (item, key) => (
-                            <Link key={key} id={item.id} className={"categories-small-link " + (isSpecificLinkActive === key ? "active" : "")} to="/shop" onClick={() => {setSpecificLinkActive(key)}}>{item.title}</Link>
+                            <Link key={key} id={item.id} className={"categories-small-link " + (isSpecificLinkActive === key ? "active" : "")} to="/shop" onClick={() => {
+                                setSpecificLinkActive(key);
+                                changeheaderSpecific(item.id);
+                            }}>{item.title}</Link>
                         )
                     )}
                 </div>
             </div>
-            <CategoryHeader headerGeneral="Женское" headerSpecific="Новинки" count="123"/>
+            <CategoryHeader headerGeneral={headerGeneral} headerSpecific={headerSpecific} count="123"/>
         </AppContainer>
     );
 }
