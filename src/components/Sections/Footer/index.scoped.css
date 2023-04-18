@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1200px){
     .footer-text{
         font-size: 0.9rem;
     }

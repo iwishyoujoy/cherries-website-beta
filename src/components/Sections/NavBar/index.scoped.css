@@ -46,7 +46,7 @@
     width: 100%;
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1200px){
     .logo{
         font-size: 1.1rem;
     }
@@ -55,7 +55,7 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 700px){
     .logo{
         font-size: 1rem;
         padding-left: 1rem;

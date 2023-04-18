@@ -53,7 +53,7 @@
     background-color: var(--white-more-transparent);
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1200px){
     .header-big-text{
         font-size: 1.8rem;
     }
@@ -68,7 +68,7 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 700px){
     .header-big-text{
         font-size: 1.7rem;
         padding: 0 0.7rem 0 0.7rem;

@@ -50,7 +50,7 @@
     border: 2px solid var(--navbar-dark);
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1200px){
     .carousel-container{
         padding: 1.5rem 15% 3rem 15%;
     }
@@ -59,7 +59,7 @@
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 700px){
     .carousel-container{
         padding: 1.5rem 5% 3rem 5%;
     }
