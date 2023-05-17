@@ -10,11 +10,10 @@ function MainPage() {
 
     const headerNavigation = [
         {title: "Товары", link: "/shop"},
-        {title: "FAQ", link: "/"},
-        {title: "Избранное", link: "/"},
-        {title: "Контакты", link: "/"},
-        {title: "Корзина", link: "/"},
-        {title: "Войти", link: "/"}
+        {title: "FAQ", link: "/faq"},
+        {title: "Избранное", link: "/liked"},
+        {title: "Контакты", link: "/contacts"},
+        {title: "Войти", link: "/login"}
     ];
 
     return (

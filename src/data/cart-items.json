@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Джинсы Dickies",
+    "price": 4800,
+    "size": 36,
+    "imgUrl": "/img1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Жилет с нашивками",
+    "price": 3500,
+    "size": 55,
+    "imgUrl": "/img2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Coach жакет",
+    "price": 2900,
+    "size": 52,
+    "imgUrl": "/img3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "COS кардиган",
+    "price": 1300,
+    "size": 44,
+    "imgUrl": "/img4.jpg"
+  }
+]

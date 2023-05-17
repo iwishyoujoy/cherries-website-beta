@@ -1,6 +1,8 @@
 import AppBody from "../../components/AppBody";
 import NavBar from "../../components/Sections/NavBar";
 import Categories from "../../components/Sections/Categories";
+import ShoppingItems from "../../components/Sections/ShoppingItems";
+import Footer from "../../components/Sections/Footer";
 
 function ShopPage(){
 
@@ -17,6 +19,8 @@ function ShopPage(){
         <AppBody>
             <NavBar navigation={headerNavigation}/>
             <Categories />
+            <ShoppingItems />
+            <Footer />
         </AppBody>
     );
 }

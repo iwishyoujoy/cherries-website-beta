@@ -1,5 +1,5 @@
 .categories-container{
-    padding-top: 3.7rem;
+    padding-top: 4.5rem;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -16,8 +16,8 @@
     align-items: center;
     column-gap: 3rem;
     padding: 1rem 0 1rem 0;
-    background-color: var(--light-grey);
-    /*background-color: transparent;*/
+    background-color: white;
+    box-shadow: 2px 2px 5px var(--light-grey);
 }
 
 .categories-big-link{

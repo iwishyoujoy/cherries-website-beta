@@ -41,6 +41,10 @@ body{
     border: 1px solid black;
 }
 
+button.react-multiple-carousel__arrow{
+    z-index: 900;
+}
+
 @media (max-width: 1200px){
     .black-white-button{
         font-size: 1rem;
