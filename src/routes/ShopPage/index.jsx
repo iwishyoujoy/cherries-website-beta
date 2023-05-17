@@ -11,7 +11,6 @@ function ShopPage(){
         {title: "FAQ", link: "/"},
         {title: "Избранное", link: "/"},
         {title: "Контакты", link: "/"},
-        {title: "Корзина", link: "/"},
         {title: "Войти", link: "/"}
     ];
 
