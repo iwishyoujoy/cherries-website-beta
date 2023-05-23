@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cherries-website-beta/static/css/main.c1ef9cd7.css",
-    "main.js": "/cherries-website-beta/static/js/main.fbae26ca.js",
+    "main.css": "/cherries-website-beta/static/css/main.ab2dc005.css",
+    "main.js": "/cherries-website-beta/static/js/main.4085a6ec.js",
     "static/media/img8-1.jpg": "/cherries-website-beta/static/media/img8-1.f284f7fef6d95ddd1d86.jpg",
     "static/media/potok.jpg": "/cherries-website-beta/static/media/potok.41156afece1badcb5a30.jpg",
     "static/media/antresol.jpg": "/cherries-website-beta/static/media/antresol.b2c01ed62a9aeebf9e46.jpg",
@@ -23,11 +23,11 @@
     "static/media/credit-card.png": "/cherries-website-beta/static/media/credit-card.75c78a2171f5905d182a.png",
     "static/media/revicons.woff": "/cherries-website-beta/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/cherries-website-beta/index.html",
-    "main.c1ef9cd7.css.map": "/cherries-website-beta/static/css/main.c1ef9cd7.css.map",
-    "main.fbae26ca.js.map": "/cherries-website-beta/static/js/main.fbae26ca.js.map"
+    "main.ab2dc005.css.map": "/cherries-website-beta/static/css/main.ab2dc005.css.map",
+    "main.4085a6ec.js.map": "/cherries-website-beta/static/js/main.4085a6ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1ef9cd7.css",
-    "static/js/main.fbae26ca.js"
+    "static/css/main.ab2dc005.css",
+    "static/js/main.4085a6ec.js"
   ]
 }
