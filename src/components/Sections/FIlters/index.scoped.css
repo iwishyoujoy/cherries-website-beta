@@ -1,0 +1,29 @@
+.filters-container{
+    background: transparent;
+    color: black;
+    /*border: none;*/
+    border: 1px solid var(--light-grey);
+    border-radius: var(--main-radius);
+    /*box-shadow: 2px 2px 5px var(--light-grey);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    row-gap: 1rem;
+    margin: 0 0 0 1rem;
+    padding: 10px 15px 10px 15px;
+    width: 270px;
+}
+
+.filter-single-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.filter-single-arrow{
+    height: 10px;
+    width: 10px;
+}

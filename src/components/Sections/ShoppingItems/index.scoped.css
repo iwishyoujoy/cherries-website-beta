@@ -1,10 +1,22 @@
+.shopping-page-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 1rem;
+}
 .shopping-list-container{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: start;
-    margin: 0 3rem 2rem 3rem;
+    margin: 0 3rem 2rem 0;
     gap: 1rem;
     flex-wrap: wrap;
-
+}
+.shopping-page-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
 }

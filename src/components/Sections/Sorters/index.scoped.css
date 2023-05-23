@@ -1,0 +1,33 @@
+.sorters-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 1rem;
+    align-items: center;
+    margin:  0 1rem 1rem 1rem;
+}
+
+.sorters-button-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.sorter-button{
+    font-family: var(--font-sans-serif);
+    font-size: 0.9em;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid var(--light-grey);
+    border-radius: var(--main-radius);
+    padding: 5px 10px 5px 10px;
+}
+
+.sorter-single-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 0.9em;
+}
+

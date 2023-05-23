@@ -6,6 +6,7 @@
     align-items: stretch;
     position: fixed;
     width: 100%;
+    z-index: 998;
     box-sizing: border-box;
 }
 
